@@ -10,6 +10,11 @@
 			function cube2() {
 				var num = document.getElementById("n2");
 				num.value = Math.sin(num.value);
+
+			}
+			function cube3() {
+				var num = document.getElementById("n3");
+				num.value = Math.pow(num.value, 4);
 			}
 		</script>
 
@@ -24,6 +29,11 @@
 		Number:
 		<input type="text" id="n2"><p>
 		<button onclick="cube2()"> Seno de un numero </button>
+		</p>
+		Number:
+		<input type="text" id="n3"><p>
+		<button onclick="cube3()"> x^4 </button>
+
 	</body>
 		
 
